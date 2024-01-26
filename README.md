@@ -23,9 +23,6 @@ the dataset crypto_market_data.csv (you can find it in the Resource folder) cont
 
 **K-Means clustering on Original Data**
 - Using the Elbow method to find the optimal number of K(k=4 in the original dataset)
-
- ![Elbow curve original data line plot](Images/Elbow_curve_original_data_line_plot.png)
-  
 - Perform the K-Means method using the optimal k
 - Visualized the results and clusters using scatter plots
 
