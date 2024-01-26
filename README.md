@@ -23,6 +23,9 @@ the dataset crypto_market_data.csv (you can find it in the Resource folder) cont
 
 **K-Means clustering on Original Data**
 - Using the Elbow method to find the optimal number of K(k=4 in the original dataset)
+
+ ![Elbow curve original data line plot](Images/Elbow_curve_original_data_line_plot.png)
+  
 - Perform the K-Means method using the optimal k
 - Visualized the results and clusters using scatter plots
 
@@ -39,4 +42,5 @@ the dataset crypto_market_data.csv (you can find it in the Resource folder) cont
   ## Results
   - Identified the best value for k both k=4 for original and Pca optimized.
   - PCA optimized simplified the data while retaining 89.5% of the variance.(total_explained_variance=0.8950)
-    
+   ![elbow_curve_comparison](Images/elbow_curve_comparison.png)
+
